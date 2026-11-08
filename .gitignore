@@ -1,0 +1,35 @@
+# python virtual environment
+.venv/
+
+# python cache files
+__pycache__/
+*.pyc 
+
+# raw and processed CHSS data
+data/raw/
+data/processed/
+
+# local databases
+*.db 
+*.sqlite 
+*.sqlite3
+
+# machine learning model files
+models/*.pkl
+models/*.joblib
+
+# environment variables and credentials
+.env 
+.env.* 
+.streamlit/secrets.toml
+
+# R remporary files
+.Rhistory 
+.RData
+.Rproj.user/
+
+# macOS system files
+.DS_Store
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
